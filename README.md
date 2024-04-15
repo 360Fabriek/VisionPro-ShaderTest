@@ -1,9 +1,33 @@
 # VisionPro-ShaderTest
-This repository is home to a Unity project with 36 different shaders and 6 different particle systems to be tested all in the same scene on the Apple Vision Pro. This way we can check out what specific shader are not yet supported on the Apple Vision Pro.
+This repository is home to a Unity project with 36 different shaders and 6 different particle systems to be tested all in the same scene on the Apple Vision Pro. This way we can check out what specific shaders are not yet supported on the Apple Vision Pro.
 
 Built scene "Shader_Test" via Unity and XCode to test it out on the Apple Vision Pro.
 
 ![Screenshot 2024-04-15 at 16 29 28](https://github.com/360Fabriek/VisionPro-ShaderTest/assets/125959835/4a9de774-36f2-452d-8c21-603d67ca48af)
+
+
+Shaders not supported:
+
+04 - Smoothness from Metallic-Alpha - not supported :x:
+07 - Emission color not supported - Emission breaks as well. :x:
+11 - Transparency double sides not rendering double :x:
+17 - Voronoi not working :x:
+21 - Transparent -  Premultiply (alpha via Base Color) :x:
+22 - Transparent - Additive (alpha via Base Color) :x:
+23 - Transparent -  (alpha via Base Color) -  :x:
+24 - Floor & random range - :x:
+25 - Simple noise - :x:
+26 - Vertex displacement - Works really bad, non functional right now :x:
+34 - Random range node breaks shader :x:
+
+Particle system issues:
+
+Do not receive light :x:
+Collision :x:
+Trail renderer :x:
+Single burst :x:
+Color by particle system properties limited :x: - Advice : use sprites/base color as much as possible.
+
 
 # These are the different shaders:
 
@@ -78,6 +102,7 @@ Built scene "Shader_Test" via Unity and XCode to test it out on the Apple Vision
 34 - Shader Graph - Transparent with Random Range and Color Mask node
 
 35 - Shader Graph - Transparent with Blended Images
+
 
 # And these are the different particle systems:
 
