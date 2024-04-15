@@ -1,0 +1,4 @@
+{
+    "displayName": "VR Sample - URP",
+    "description": "A sample scene and supporting assets for the Universal Render Pipeline demonstrating VR features. This sample requires the XR Interaction Toolkit to be added to your project."
+}
