@@ -6,6 +6,7 @@ Built scene "Shader_Test" via Unity and XCode to test it out on the Apple Vision
 ![Screenshot 2024-04-15 at 16 29 28](https://github.com/360Fabriek/VisionPro-ShaderTest/assets/125959835/4a9de774-36f2-452d-8c21-603d67ca48af)
 
 <br />
+
 **Shaders not supported:**
 
 04 - Smoothness from Metallic-Alpha - not supported :x:
@@ -31,6 +32,7 @@ Built scene "Shader_Test" via Unity and XCode to test it out on the Apple Vision
 34 - Random range node breaks shader :x:
 
 <br />
+
 **Particle system issues:**
 
 - Do not receive light :x:
