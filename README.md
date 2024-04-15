@@ -6,7 +6,9 @@ Built scene "Shader_Test" to run it on the Apple Vision Pro.
 # These are the different shaders:
 
 00 - Transparent White Gradient
+
 01 - Transparent White Gradient with animated tiling (time node)
+
 02 - Transparent White Gradient colored with base color
 03 - Transparent White Icon with emission
 04 - Smoothness from Metallic-Alpha - currently 03-2024 not supported
