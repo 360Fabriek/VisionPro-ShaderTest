@@ -9,27 +9,42 @@ Built scene "Shader_Test" via Unity and XCode to test it out on the Apple Vision
 Shaders not supported:
 
 04 - Smoothness from Metallic-Alpha - not supported :x:
+
 07 - Emission color not supported - Emission breaks as well. :x:
+
 11 - Transparency double sides not rendering double :x:
+
 17 - Voronoi not working :x:
+
 21 - Transparent -  Premultiply (alpha via Base Color) :x:
+
 22 - Transparent - Additive (alpha via Base Color) :x:
+
 23 - Transparent -  (alpha via Base Color) -  :x:
+
 24 - Floor & random range - :x:
+
 25 - Simple noise - :x:
+
 26 - Vertex displacement - Works really bad, non functional right now :x:
+
 34 - Random range node breaks shader :x:
+
 
 Particle system issues:
 
-Do not receive light :x:
-Collision :x:
-Trail renderer :x:
-Single burst :x:
-Color by particle system properties limited :x: - Advice : use sprites/base color as much as possible.
+- Do not receive light :x:
+
+- Collision :x:
+
+- Trail renderer :x:
+
+- Single burst :x:
+
+- Color by particle system properties limited :x: - Advice : use sprites/base color as much as possible.
 
 
-# These are the different shaders:
+# List of shaders:
 
 00 - Transparent White Gradient
 
@@ -104,7 +119,7 @@ Color by particle system properties limited :x: - Advice : use sprites/base colo
 35 - Shader Graph - Transparent with Blended Images
 
 
-# And these are the different particle systems:
+# List of particle systems:
 
 P00 - Default White Particle with colored Start Color
 
